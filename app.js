@@ -17,7 +17,9 @@ app.use((err, req, res, next) => {
       }
    
   });
-
+app.get("/",(req,res)=>{
+    res.send("Getir-Case-Study")
+})
 app.post('/records',(req,res)=>{
     
     
