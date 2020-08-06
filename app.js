@@ -1,11 +1,16 @@
 /* importing neccesary packages */
 const express = require('express')
 const app  = express()
-
+const helmet = require('helmet')
+const morgan = require('morgan')
+const cors = require('cors')
 const MySchema = require('./models/model')
 let {ServerRespond,schema} = require('./constants')
 
 app.use(express.json())
+app.use(helmet())
+app.use(morgan("combined"))
+app.use(cors())
 /* Middleware checks whether the sended data is json or not */
 app.use((err, req, res, next) => {
     try {
