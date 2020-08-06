@@ -69,6 +69,11 @@ To test the api
 npm run test
 ```
 For testing Mocha is used and for testing the endpoint chai is used
+# For Development
+```bash
+npm run dev
+```
+it will start nodemon
 
 # Validation
 
