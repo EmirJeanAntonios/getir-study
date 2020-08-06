@@ -70,5 +70,10 @@ npm run test
 ```
 For testing Mocha is used and for testing the endpoint chai is used
 
+# Validation
+
+In api a middleware checks whether the data is json or not
+
+When The input data is posted Joi is checking the posted data and comparing it to pre defined schema
 
 
