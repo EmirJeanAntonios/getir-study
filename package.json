@@ -1,0 +1,25 @@
+{
+  "name": "getircasestudy",
+  "version": "1.0.0",
+  "description": "An API that has one endpoint and returns json data",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --timeout 10000 --exit",
+    "start": "nodemon server.js"
+  },
+  "author": "Emir Jean Antonios",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "axios": "^0.19.2",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.27",
+    "supertest": "^4.0.2"
+  }
+}
