@@ -2,7 +2,7 @@
   "name": "getircasestudy",
   "version": "1.0.0",
   "engines": {
-    "node": "12.x"
+    "node": "12.18.3"
   },
   "description": "An API that has one endpoint and returns json data",
   "main": "server.js",
@@ -21,6 +21,7 @@
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
     "cors": "^2.8.5",
+    "event-stream": "^4.0.1",
     "express": "^4.17.1",
     "mongoose": "^5.9.27",
     "supertest": "^4.0.2"
