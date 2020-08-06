@@ -8,7 +8,7 @@
   "main": "server.js",
   "scripts": {
     "test": "mocha --timeout 10000 --exit",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "Emir Jean Antonios",
   "license": "ISC",
